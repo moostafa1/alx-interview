@@ -1,6 +1,14 @@
 #!/usr/bin/python3
 
+"""
+creates pascal's triangle
+"""
+
+
 def pascal_triangle(n):
+    """
+    Takes the n number of rows to build a pascal's triangle
+    """
     triangle = []
 
     if n <= 0:
